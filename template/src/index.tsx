@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import RoutesApp from "./routes"
+import GlobalStyle from "./styles/globalStyles"
+import { ThemeProvider } from "styled-components"
+import theme from "./styles/theme"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <RoutesApp />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
