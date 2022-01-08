@@ -1,8 +1,17 @@
 {
   "name": "cra-template-pdr",
   "version": "0.1.0",
-  "private": true,
   "description": "Great CRA template with typescript",
+  "keywords": ["react", "typescript", "organized", "styled-components"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedrosandes/pdr-template",
+    "directory": "packages/cra-template"
+  },
+  "bugs": {
+    "url": "https://github.com/pedrosandes/pdr-template/issues"
+  },
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -21,28 +30,11 @@
     "typescript": "^4.5.4",
     "web-vitals": "^2.1.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "engines": {
+    "node": ">=14"
   }
 }
