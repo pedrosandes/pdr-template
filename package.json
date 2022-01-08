@@ -1,12 +1,12 @@
 {
   "name": "cra-template-pdr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Great CRA template with typescript",
   "keywords": ["react", "typescript", "organized", "styled-components"],
   "repository": {
     "type": "git",
     "url": "https://github.com/pedrosandes/pdr-template",
-    "directory": "packages/cra-template"
+    "directory": "packages/cra-template-pdr"
   },
   "bugs": {
     "url": "https://github.com/pedrosandes/pdr-template/issues"
